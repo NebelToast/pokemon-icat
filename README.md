@@ -31,6 +31,7 @@ Note that this script will add an environment variable `$POKEMON_ICAT_DATA` whic
 - `$HOME/.zprofile`
 - `$HOME/.zshrc`
 - `$HOME/.config/fish/config.fish`
+Some users reported that a reboot was necessary for the program to function correctly.
 
 Moreover, by default this will download every Pokémon with an upscaling factor of the original image of `3`, but if you want to change this behaviour run the last command with the option `--upscale <FACTOR>`, for example:
 
