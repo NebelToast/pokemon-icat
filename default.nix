@@ -35,7 +35,7 @@ let
         # outputHash = "sha256-bry1YzkB27/nP92EZct2twNiUIxjRbnjK1g9Bcqi+TY=";
         # outputHash = "sha256-1TnfKN8Ij+pbK6vLXdvbV1qud2HfDHeIJQTzTK+jJP0=";
         # outputHash = "sha256-hOWfpeQz0or/2G9VzYnuc6AFHvlsS5NjmQmMOC01jFM=";
-         outputHash = "sha256-aBXRb1gTwFKBJfvQj9wE497zRNTNLKbewy2TvAfeA5Q=;
+         outputHash = "sha256-aBXRb1gTwFKBJfvQj9wE497zRNTNLKbewy2TvAfeA5Q=";
         #outputHash = "sha256-93844db8e009ace71e0a8b45e7a5c2a4ec2eb4c8";
 
         # src = ./.;
