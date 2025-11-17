@@ -26,13 +26,14 @@ class PokemonPath:
 
 # urls
 HEADERS = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
-TREE_ROOT_URL = "https://api.github.com/repos/PokeAPI/sprites/git/trees/6127a37944160e603c1a707ac0c5f8e367b4050a"
-
-URL_TREE = "https://api.github.com/repos/PokeAPI/sprites/git/trees/c87f4ced89853ad94e3a474306c07d329a28d59c"
 # Pinned to a specific commit to avoid hash mismatches in Nix builds
 # To update: visit https://github.com/PokeAPI/sprites/commits/master and replace the commit SHA below
 SPRITES_COMMIT = "93844db8e009ace71e0a8b45e7a5c2a4ec2eb4c8"  # Latest working commit
+TREE_ROOT_URL = f"https://api.github.com/repos/PokeAPI/sprites/git/trees/{SPRITES_COMMIT}"
 URL_POINT_BASE = f"https://raw.githubusercontent.com/PokeAPI/sprites/{SPRITES_COMMIT}"
+
+# Legacy URL - can be removed if not needed
+URL_TREE = "https://api.github.com/repos/PokeAPI/sprites/git/trees/c87f4ced89853ad94e3a474306c07d329a28d59c"
 
 # dirs
 # CACHE_DIR = Path.home() / ".cache"
