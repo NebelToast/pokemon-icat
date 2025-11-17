@@ -37,7 +37,8 @@ let
         # outputHash = "sha256-hOWfpeQz0or/2G9VzYnuc6AFHvlsS5NjmQmMOC01jFM=";
         # outputHash = "sha256-tJ7DIF1xzXHAyA2yEbmHJsKAZxhcgo4WjHLygGhpMHQ=";
         # outputHash = "sha256-65YMTrTk/XwGXcF3okj41zIllLZAZaMmD4g/4gO6C5A=";
-        outputHash = "sha256-1BVoArRKcryCayF31jGDKnFLjeBlU5HuxAzPnnQYAoA=";
+        # outputHash = "sha256-1BVoArRKcryCayF31jGDKnFLjeBlU5HuxAzPnnQYAoA=";  # veihftm/JOfEiKa+ybT0aQD99J/eDPFCeyO43YU48Ds=
+        outputHash = "sha256-D1eb91IJJL+GbwA5bhL1m1iPGYb1Io99BNMfrkBJ4sU=";  # Commit 93844db8 without Alcremie forms
         
         # src = ./.;
             src = pkgs.lib.fileset.toSource {
