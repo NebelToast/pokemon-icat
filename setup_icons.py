@@ -28,7 +28,7 @@ class PokemonPath:
 HEADERS = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
 # Pinned to a specific commit to avoid hash mismatches in Nix builds
 # To update: visit https://github.com/PokeAPI/sprites/commits/master and replace the commit SHA below
-SPRITES_COMMIT = "93844db8e009ace71e0a8b45e7a5c2a4ec2eb4c8"  # Latest working commit
+SPRITES_COMMIT = "cb66bc8db9caa8244e0fbb3a19c7240ea77f72e8"  # Latest working commit
 TREE_ROOT_URL = f"https://api.github.com/repos/PokeAPI/sprites/git/trees/{SPRITES_COMMIT}"
 URL_POINT_BASE = f"https://raw.githubusercontent.com/PokeAPI/sprites/{SPRITES_COMMIT}"
 
