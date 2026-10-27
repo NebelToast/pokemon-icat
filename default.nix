@@ -38,7 +38,7 @@ let
         # outputHash = "sha256-tJ7DIF1xzXHAyA2yEbmHJsKAZxhcgo4WjHLygGhpMHQ=";
         # outputHash = "sha256-65YMTrTk/XwGXcF3okj41zIllLZAZaMmD4g/4gO6C5A=";
         # outputHash = "sha256-1BVoArRKcryCayF31jGDKnFLjeBlU5HuxAzPnnQYAoA=";  # veihftm/JOfEiKa+ybT0aQD99J/eDPFCeyO43YU48Ds=
-        outputHash = "sha256-z0docnk11vk21dODv0apeZNq0v6c16IvwGjesZ9q9NA=";
+        outputHash = "sha256-+wBs7O6EiiH4BHZjkgRm89LBUc9PARTI0MLRdEi24R4=";
         
         # src = ./.;
             src = pkgs.lib.fileset.toSource {
